@@ -1,1 +1,5 @@
 *_templ.go
+*_templ.txt
+node_modules
+tmp
+static/tailwind.css

@@ -1,0 +1,17 @@
+{
+  "name": "halfstack",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "tailwind": "tailwind -i css/tailwind.css -o static/tailwind.css --watch"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.3"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
