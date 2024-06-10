@@ -1,3 +1,5 @@
 ```
-bun tailwind & templ generate --watch & air
+bun tailwind
+templ generate --watch
+air
 ```

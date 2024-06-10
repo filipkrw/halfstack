@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/*
+  Typography
+*/
+article h1 {
+  @apply font-display leading-[1.15] font-bold text-3xl text-slate-800 mb-5;
+}
+
+article h2 {
+  @apply font-display font-bold text-xl mb-0.5 text-slate-800;
+}
+
+article p {
+  @apply text-lg mb-3.5 leading-[1.475];
+}
+
+article a {
+  @apply text-primary hover:bg-primary hover:text-white focus-visible:bg-primary focus-visible:text-white focus-visible:outline-none font-medium;
+}
