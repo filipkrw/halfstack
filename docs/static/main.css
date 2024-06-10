@@ -1,0 +1,17 @@
+@keyframes copy {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+}
+
+.copy-animation {
+  animation: copy 1s ease;
+}
