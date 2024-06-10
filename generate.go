@@ -8,7 +8,7 @@ import (
 )
 
 func generate() {
-	f, err := os.Create("dist/index.html")
+	f, err := os.Create("docs/index.html")
 	if err != nil {
 		log.Fatalf("failed to create output file: %v", err)
 	}
