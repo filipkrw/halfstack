@@ -6,7 +6,7 @@
   Typography
 */
 article h1 {
-  @apply font-display leading-[1.15] font-bold text-3xl text-slate-800 mb-5;
+  @apply font-display leading-[1.15] font-bold text-3xl text-slate-800 mb-4;
 }
 
 article h2 {
@@ -14,7 +14,7 @@ article h2 {
 }
 
 article p {
-  @apply text-lg mb-3.5 leading-[1.475];
+  @apply mb-3.5 leading-[1.475];
 }
 
 article a {

@@ -1,6 +1,6 @@
 package components
 
-templ Email(email string) {
+templ Email() {
 	<script type="text/javascript">
         function handleClick(button) {
             navigator.clipboard.writeText(button.textContent);
@@ -14,7 +14,7 @@ templ Email(email string) {
 		onclick="handleClick(this)"
 		class="text-primary hover:bg-primary hover:text-white focus-visible:bg-primary focus-visible:text-white focus-visible:outline-none font-medium"
 	>
-		{ email }
+		<span>filip</span><span class="hidden">halfstack</span><span>krw@protonmail.com</span>
 	</button>
 	<span class="inline-block opacity-0 absolute"></span>
 }

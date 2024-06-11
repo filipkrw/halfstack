@@ -586,6 +586,10 @@ video {
   display: flex;
 }
 
+.hidden {
+  display: none;
+}
+
 .h-full {
   height: 100%;
 }
@@ -710,7 +714,7 @@ video {
 */
 
 article h1 {
-  margin-bottom: 1.25rem;
+  margin-bottom: 1rem;
   font-family: 'IBM Plex Sans', sans-serif;
   font-size: 1.875rem;
   line-height: 2.25rem;
@@ -732,8 +736,6 @@ article h2 {
 
 article p {
   margin-bottom: 0.875rem;
-  font-size: 1.125rem;
-  line-height: 1.75rem;
   line-height: 1.475;
 }
 
