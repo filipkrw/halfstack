@@ -3,7 +3,7 @@ package components
 templ Email() {
 	<script type="text/javascript">
         function handleClick(button) {
-            navigator.clipboard.writeText(button.textContent);
+            navigator.clipboard.writeText(button.textContent.replace("halfstack", ""));
             const span = button.nextElementSibling;
             span.textContent = "copied";
             span.classList.remove("copy-animation");
